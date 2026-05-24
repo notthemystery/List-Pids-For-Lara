@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <libproc.h>
+#include "libproc.h"
 #include <sys/proc_info.h>
 #include <string.h>
 #include <signal.h>
