@@ -39,7 +39,7 @@
 #include "kern_control.h"
 #include <sys/event.h>
 #include <net/if.h>
-#include <net/route.h>
+#include "route.h"
 #include <netinet/in.h>
 #include <netinet/tcp.h>
 #include <mach/machine.h>
