@@ -18,5 +18,4 @@ targets:
       SWIFT_OBJC_BRIDGING_HEADER: processlist.h
 
     info:
-
-      - path: MyApp/info.plist
+      path: MyApp/info.plist
