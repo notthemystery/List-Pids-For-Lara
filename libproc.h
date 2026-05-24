@@ -31,7 +31,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#include <sys/proc_info.h>
+#include "proc_info.h"
 
 #include <Availability.h>
 
