@@ -23,7 +23,7 @@ void refresh_processes() {
         pid_t *pids = malloc(bufsize);
 
         if (!pids)
-            return 1;
+            return;
 
         int numberOfPids = proc_listallpids(pids, bufsize);
 
@@ -31,7 +31,7 @@ void refresh_processes() {
 
         if (!f) {
             free(pids);
-            return 1;
+            return;
         }
 
         fprintf(f, "[\n");
@@ -63,7 +63,7 @@ void refresh_processes() {
         free(pids);
     }
 
-    return 0;
+    return;
 }
 
 int runcmd(pid_t pid, const char *cmd) {
