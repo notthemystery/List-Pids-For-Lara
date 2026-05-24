@@ -36,7 +36,7 @@
 #include <sys/mount.h>
 #include <sys/socket.h>
 #include <sys/un.h>
-#include <sys/kern_control.h>
+#include "kern_control.h"
 #include <sys/event.h>
 #include <net/if.h>
 #include <net/route.h>
